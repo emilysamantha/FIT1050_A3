@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Redwood Gardens Chinese Restaurant</title>
+    <!--
+
+Template 2089 Meteor
+
+http://www.tooplate.com/view/2089-meteor
+
+-->
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/hero-slider.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/f96bc65fa2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Nunito:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init("nse2zv-RjID7yDtgc");
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document
+          .getElementById("booking-form")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            emailjs.sendForm("service_gtnlud4", "redwood_template", this).then(
+              function () {
+                console.log("SUCCESS!");
+                alert(
+                  "Booking confirmed! Please check your email for details."
+                );
+              },
+              function (error) {
+                console.log("FAILED...", error);
+                alert("An error occurred. Please try again later.");
+              }
+            );
+          });
+      };
+    </script>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="navbar-header">
+            <button
+              type="button"
+              id="nav-toggle"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#main-nav"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand scroll-top">
+              <div class="logo"></div>
+            </a>
+          </div>
+          <!--/.navbar-header-->
+          <div id="main-nav" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#" class="scroll-top">Home</a></li>
+              <li><a href="#" class="scroll-link">Menu</a></li>
+              <li><a href="#" class="scroll-link">Takeaway</a></li>
+              <li><a href="#" class="scroll-link">Booking</a></li>
+              <li><a href="#" class="scroll-link">Contact Us</a></li>
+            </ul>
+          </div>
+          <!--/.navbar-collapse-->
+        </nav>
+        <!--/.navbar-->
+      </div>
+      <!--/.container-->
+    </div>
+    <!--/.header-->
+
+    <section class="cd-hero">
+      <ul class="cd-hero-slider autoplay">
+        <!-- 
+            <ul class="cd-hero-slider autoplay"> for slider auto play 
+            <ul class="cd-hero-slider"> for disabled auto play
+        -->
+        <li class="selected first-slide">
+          <div class="cd-full-width">
+            <div class="tm-slide-content-div slide-caption">
+              <h2>Exquisite Chinese Cuisine</h2>
+              <p>
+                Located in Melbourne, Australia. Visit us at 16 Garden Blvd,
+                Dingley Village, VIC.
+              </p>
+              <div class="primary-button">
+                <a href="#" class="scroll-link" data-id="booking">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <!-- .cd-full-width -->
+        </li>
+
+        <li class="second-slide">
+          <div class="cd-full-width">
+            <div class="tm-slide-content-div slide-caption">
+              <h2>Authentic Chinese Flavours</h2>
+              <p>
+                Located in Melbourne, Australia. Visit us at 16 Garden Blvd,
+                Dingley Village, VIC.
+              </p>
+              <div class="primary-button">
+                <a href="#" data-id="menu">View Our Menu</a>
+              </div>
+            </div>
+          </div>
+          <!-- .cd-full-width -->
+        </li>
+
+        <li class="third-slide">
+          <div class="cd-full-width">
+            <div class="tm-slide-content-div slide-caption">
+              <h2>The Heart of Chinese Cuisine</h2>
+              <p>
+                Located in Melbourne, Australia. Visit us at 16 Garden Blvd,
+                Dingley Village, VIC.
+              </p>
+              <div class="primary-button">
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <!-- .cd-full-width -->
+        </li>
+      </ul>
+      <!-- .cd-hero-slider -->
+
+      <div class="cd-slider-nav">
+        <nav>
+          <span class="cd-marker item-1"></span>
+
+          <ul>
+            <li class="selected"><a href="#0"></a></li>
+            <li><a href="#0"></a></li>
+            <li><a href="#0"></a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- .cd-slider-nav -->
+    </section>
+    <!-- .cd-hero -->
+
+    <div id="about" class="page-section">
+      <img
+        src="images/redwood_gardens_logo_hd.png"
+        alt="Redwood Gardens Logo"
+      />
+      <p>
+        Redwood Gardens Chinese restaurant has been established since 1995 and
+        has a seating capacity of up to 125 people. The restaurant has sweeping
+        views overlooking a man made lake and is situated in the center of an
+        industrial area. Our dishes incorporate a variety of Asian cuisines. We
+        cater to all sorts of functions and banquets can be set up to meet
+        individual needs.
+      </p>
+      <div class="primary-button">
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+
+    <div id="menu-highlights" class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h3>Menu Highlights</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item first-service">
+              <div class="icon"></div>
+              <h4>Seafood</h4>
+              <p>
+                Sweet and Sour Fish, Salt and Pepper Squid, Steamed Whole Fish,
+                Spicy Sichuan Shrimp, Cantonese-style Lobster, Crab with Black
+                Bean Sauce, and more.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item second-service">
+              <div class="icon"></div>
+              <h4>Noodles</h4>
+              <p>
+                Chow Mein, Lo Mein, Dan Dan Noodles, Beef Chow Fun, Shanghai
+                Noodles, Singapore Noodles, Zhajiangmian, Sesame Noodles, and
+                more.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item third-service">
+              <div class="icon"></div>
+              <h4>Soups</h4>
+              <p>
+                Hot and Sour Soup, Wonton Soup, Egg Drop Soup, Chicken Corn
+                Soup, Chinese Herbal Chicken Soup, Fish Maw Soup, Hot Pot, and
+                more.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item fourth-service">
+              <div class="icon"></div>
+              <h4>Dimsum</h4>
+              <p>
+                Shumai, Har Gow, Char Siu Bao, Cheong Fun, Egg Custard Tart,
+                Chicken Feet, Turnip Cake, Bean Curd Skin Roll, and more.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="primary-button">
+          <a href="#">View Full Menu</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="what-we-do">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-text">
+              <h4>New offers just arrived,<br />Get it now and take profit.</h4>
+              <p>
+                Gochujang pitchfork post-ironic hammock kombucha fanny pack
+                cronut. Raw denim chicharrones semiotics af truffaut pinterest.
+                Distillery letterpress authentic adaptogen. Meditation schlitz
+                humblebrag photo booth celiac cliche chartreuse.<br /><br />Pinterest
+                90's wolf celiac dreamcatcher listicle deep v semiotics.
+                Intelligentsia literally meggings trust fund put a bird on it.
+                Shoreditch crucifix artisan pug shaman twee. Health goth bicycle
+                rights retro iPhone.
+              </p>
+              <ul>
+                <li>
+                  <div class="white-button">
+                    <a href="#" class="scroll-link" data-id="portfolio"
+                      >Discover More</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="primary-button">
+                    <a href="#">Purchase Now</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-image">
+              <img src="img/what-we-do-right-image.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="menu" class="page-section">
+      <div class="content-wrapper">
+        <div class="inner-container container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-heading">
+                <h3>Browse Our Menu</h3>
+              </div>
+            </div>
+          </div>
+          <div class="projects-holder-3">
+            <div class="filter-categories">
+              <ul class="project-filter">
+                <li class="filter" data-filter="all"><span>All</span></li>
+                <li class="filter" data-filter="dimsum">
+                  <span>Dimsum</span>
+                </li>
+                <li class="filter" data-filter="chicken">
+                  <span>Chicken</span>
+                </li>
+                <li class="filter" data-filter="beef">
+                  <span>Beef</span>
+                </li>
+                <li class="filter" data-filter="seafood">
+                  <span>Seafood</span>
+                </li>
+                <li class="filter" data-filter="noodles">
+                  <span>Noodles</span>
+                </li>
+                <li class="filter" data-filter="soups">
+                  <span>Soups</span>
+                </li>
+              </ul>
+            </div>
+            <div class="projects-holder">
+              <div class="row">
+                <div class="col-md-3 col-sm-6 project-item mix chicken">
+                  <div class="thumb">
+                    <div class="image">
+                      <img
+                        src="images/chicken1.jpg"
+                        alt="Sweet and sour chicken"
+                      />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/chicken1.jpg"
+                        data-lightbox="image-1"
+                        data-title="Sweet and sour chicken ($24)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix dimsum">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/dimsum1.jpg" alt="Dumplings" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/dimsum1.jpg"
+                        data-lightbox="image-1"
+                        data-title="Steamed Dumplings ($12)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix noodles">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/noodle1.jpg" alt="Fried Noodles" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/noodle1.jpg"
+                        data-lightbox="image-1"
+                        data-title="Fried Noodles ($20)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix chicken">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/chicken2.jpg" alt="Honey Chicken" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/chicken2.jpg"
+                        data-lightbox="image-1"
+                        data-title="Honey Chicken ($23)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix noodles">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/noodle2.jpg" alt="Spicy Noodle Soup" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/noodle2.jpg"
+                        data-lightbox="image-1"
+                        data-title="Spicy Noodle Soup ($18)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix noodles">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/noodle3.jpg" alt="Hongkong Noodles" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/noodle3.jpg"
+                        data-lightbox="image-1"
+                        data-title="Hongkong Noodles ($19)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix soups">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/soup1.jpg" alt="Lotus Root Soup" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/soup1.jpg"
+                        data-lightbox="image-1"
+                        data-title="Lotus Root Soup ($20)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix seafood">
+                  <div class="thumb">
+                    <div class="image">
+                      <img
+                        src="images/seafood1.jpg"
+                        alt="Salt and Pepper Prawns"
+                      />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/seafood1.jpg"
+                        data-lightbox="image-1"
+                        data-title="Salt and Pepper Prawns ($25)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix beef">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/beef1.jpg" alt="Black Pepper Beef" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/beef1.jpg"
+                        data-lightbox="image-1"
+                        data-title="Black Pepper Beef ($25)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix soups">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/soup2.jpg" alt="Beef Hotpot" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/soup2.jpg"
+                        data-lightbox="image-1"
+                        data-title="Beef Hotpot ($28)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix beef">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/beef2.jpg" alt="Mongolian Beef" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/beef2.jpg"
+                        data-lightbox="image-1"
+                        data-title="Mongolian Beef ($26)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 project-item mix dimsum">
+                  <div class="thumb">
+                    <div class="image">
+                      <img src="images/dimsum2.jpg" alt="Shiumai" />
+                    </div>
+                    <div class="hover-effect">
+                      <a
+                        href="images/dimsum2.jpg"
+                        data-lightbox="image-1"
+                        data-title="Shiumai ($14)"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="blog" class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h4>Our Blog Posts</h4>
+              <div class="line-dec"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="blog-item b1">
+              <div class="thumb">
+                <img src="img/blog_01.jpg" alt="" />
+                <div class="text-content">
+                  <h4>Delecioius Food Served</h4>
+                  <span
+                    >Posted: <em>George</em> / Date: <em>11 Aug 2017</em> /
+                    Category: <em>Design</em></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="blog-item second-blog b2">
+              <div class="thumb">
+                <img src="img/blog_02.jpg" alt="" />
+                <div class="text-content">
+                  <h4>Creative &amp; Clean Workspace</h4>
+                  <span
+                    >Posted: <em>Kerley</em> / Date: <em>24 Jul 2017</em> /
+                    Category: <em>Artwork</em></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="blog-item b3">
+              <div class="thumb">
+                <img src="img/blog_03.jpg" alt="" />
+                <div class="text-content">
+                  <h4>Crashed Plane Captured</h4>
+                  <span
+                    >Posted: <em>Johnny</em> / Date: <em>16 Jul 2017</em> /
+                    Category: <em>Branding</em></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="pop">
+              <span>✖</span>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                quis neque lacinia, porta nulla in, pellentesque ante. Vivamus
+                in luctus mauris, non pharetra nibh. Morbi porttitor nisl sit
+                amet velit pellentesque consequat. Etiam blandit libero turpis,
+                id vehicula leo posuere a. In vel massa sollicitudin, tincidunt
+                massa et, tincidunt ex.<br /><br />Duis volutpat condimentum
+                mollis. Sed eleifend libero ut viverra mattis. Suspendisse
+                consectetur diam dolor, ut efficitur sem finibus vel. Vivamus
+                tristique lacus sed dapibus varius. Fusce pharetra, quam quis
+                congue pretium, ante dui imperdiet ipsum, eget lobortis leo leo
+                sed diam.
+              </p>
+            </div>
+            <div class="pop2">
+              <span>✖</span>
+              <p>
+                Praesent purus leo, aliquet et efficitur id, pulvinar
+                scelerisque enim. Maecenas a arcu sagittis, ornare ante ut,
+                suscipit lectus. Donec dolor ipsum, laoreet nec metus non,
+                tempus elementum massa. Donec non elit rhoncus, vestibulum enim
+                sed, rutrum arcu. Vestibulum et purus ac diam condimentum
+                volutpat sed ac est. Phasellus interdum tortor sem. Quisque sit
+                amet condimentum sem. Phasellus luctus, felis sit amet pulvinar
+                luctus, lectus dui mattis tellus, et placerat nunc ante at
+                lacus.<br /><br />Vivamus vestibulum, nisi sed placerat
+                accumsan, felis felis venenatis tortor, vel condimentum arcu
+                neque vel mauris. Donec a magna gravida, egestas libero non,
+                molestie massa. Integer ut dolor eget magna congue gravida ut at
+                arcu. Vivamus maximus neque quis luctus tempus. Vestibulum
+                consequat a justo id feugiat.
+              </p>
+            </div>
+            <div class="pop3">
+              <span>✖</span>
+              <p>
+                Nullam rhoncus, orci et iaculis sodales, quam lectus suscipit
+                augue, ut auctor massa dolor id metus. Nulla porta ut diam
+                sodales dignissim. Ut sit amet augue vel justo laoreet
+                dignissim. Maecenas vitae sollicitudin eros. In commodo placerat
+                cursus. Quisque malesuada, nisl ac lacinia commodo, justo eros
+                maximus ex, quis cursus odio erat at neque. Sed tincidunt eu
+                dolor eget posuere.<br /><br />Curabitur sit amet elit sit amet
+                ligula eleifend aliquam quis eget quam. Mauris id mi nec justo
+                venenatis tincidunt at ac massa. Sed et volutpat nunc. Quisque
+                at urna quam. Duis sit amet neque eget quam iaculis iaculis.
+                Quisque maximus porta elementum. Nam ac mattis erat, quis
+                accumsan odio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div id="fun-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="fact-item">
+              <div class="counter" data-count="926">0</div>
+              <span>Regular Visitors</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="fact-item">
+              <div class="counter" data-count="214">0</div>
+              <span>Finished Projects</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="fact-item">
+              <div class="counter" data-count="118">0</div>
+              <span>Happy Clients</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="fact-item">
+              <div class="counter" data-count="16">0</div>
+              <span>Total Awards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="location" class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h3>Our Location</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="map">
+              <!-- <img src="img/map.jpg" alt="" /> -->
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d12579.473838294138!2d145.114806!3d-37.980199!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x6ad66cea18e07409%3A0x1db0e707502f3f2c!2sRedwood%20Gardens%20Chinese%20Restaurant%2C%2016%20Garden%20Blvd%2C%20Dingley%20Village%20VIC%203172!3m2!1d-37.9802906!2d145.114286!5e0!3m2!1sen!2sau!4v1684919443275!5m2!1sen!2sau"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4>Address</h4>
+            <p>16 Garden Boulevard, Dingley Village, VIC 3172</p>
+            <h4>Telephone</h4>
+            <p>(03) 9551 5643 <br />0420 871 288</p>
+            <h4>Business Hours</h4>
+            <p>
+              Weekdays: 12pm - 3pm (Lunch), 6pm - 10pm (Dinner) <br />Weekends:
+              6pm - 10pm (Dinner)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="booking" class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h3>Make a Booking</h3>
+            </div>
+          </div>
+        </div>
+        <div class="booking-form-container">
+          <form id="booking-form" action="">
+            <div class="booking-form-input">
+              <label for="name">Name</label>
+              <input
+                name="name"
+                id="name"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+              <label for="email">Email</label>
+              <input
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Your email"
+                required
+              />
+              <label for="num_people">How many people will dine?</label>
+              <input
+                name="num_people"
+                id="num_people"
+                type="number"
+                placeholder="Number of people"
+                required
+              />
+              <label for="datetimepicker">Select Date and Time:</label>
+              <input
+                type="datetime-local"
+                id="datetimepicker"
+                name="datetimepicker"
+                required
+              />
+            </div>
+
+            <button type="submit" id="form-submit">Make Booking</button>
+            <p>
+              You will get a confirmation email once you have made your booking.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              <b
+                >Subscribe to our mailing list to get the latest information and
+                promotions</b
+              >
+            </p>
+            <div class="row">
+              <form id="subscribe-email" action="" method="post">
+                <div class="subscribe-email-form">
+                  <input
+                    name="email"
+                    type="email"
+                    id="email"
+                    placeholder="Your email"
+                    required=""
+                  />
+                  <button type="submit" id="form-submit">Subscribe</button>
+                </div>
+
+                <div class="col-md-12"></div>
+              </form>
+            </div>
+            <div class="copyright-text">
+              <p>Copyright &copy; 2023 Redwood Gardens Chinese Restaurant</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-phone"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
+        );
+    </script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        // navigation click actions
+        $(".scroll-link").on("click", function (event) {
+          event.preventDefault();
+          var sectionID = $(this).attr("data-id");
+          scrollToID("#" + sectionID, 750);
+        });
+        // scroll to top action
+        $(".scroll-top").on("click", function (event) {
+          event.preventDefault();
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+        });
+        // mobile nav toggle
+        $("#nav-toggle").on("click", function (event) {
+          event.preventDefault();
+          $("#main-nav").toggleClass("open");
+        });
+      });
+      // scroll function
+      function scrollToID(id, speed) {
+        var offSet = 50;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $("#main-nav");
+        $("html,body").animate({ scrollTop: targetOffset }, speed);
+        if (mainNav.hasClass("open")) {
+          mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+          mainNav.removeClass("open");
+        }
+      }
+      if (typeof console === "undefined") {
+        console = {
+          log: function () {},
+        };
+      }
+    </script>
+  </body>
+</html>
