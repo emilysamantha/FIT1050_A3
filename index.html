@@ -63,6 +63,25 @@ http://www.tooplate.com/view/2089-meteor
               }
             );
           });
+
+        document
+          .getElementById("subscribe-email")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            emailjs.sendForm("service_gtnlud4", "redwood_mailing", this).then(
+              function () {
+                console.log("SUCCESS!");
+                alert(
+                  "You have joined the mailing subscription! Please check your email for details."
+                );
+              },
+              function (error) {
+                console.log("FAILED...", error);
+                alert("An error occurred. Please try again later.");
+              }
+            );
+          });
       };
     </script>
   </head>
